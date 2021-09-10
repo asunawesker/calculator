@@ -9,12 +9,11 @@
     href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head> 
 <body>
-    <h1 class="text">calculator</h1>
-    <h2 class="text">iraís aguirre valente</h2>
+    
     <div class="container">       
         <input class="result" id="screen" placeholder="0">            
         <div class="buttons">
-            <button onclick="squaredResponse()">x<sup>2</sup></button>                    
+            <button onclick="squaredResponse()">x <sup>2</sup></button>                    
             <button onclick="sqrtResponse()">√</button>
             <button class="btn">^</button>
             <button id="ac" onclick="screen.value=''">AC</button>
@@ -32,11 +31,11 @@
             <button class="btn">-</button>
             <button class="btn">0</button>
             <button class="btn">.</button>
-            <button class="btn" onclick="generalResponse()">=</button>
+            <button id="eval" onclick="generalResponse()">=</button>
             <button class="btn">+</button>
         </div>            
     </div>
     
     <script src="calculator.js"></script>
 </body>   
-</html>
+</html>>
